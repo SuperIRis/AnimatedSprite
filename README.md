@@ -2,6 +2,8 @@
 
 Create an animation with a Sprite sheet. You can set parameters to do complex animations for hovers, loops, etc. My goal is to make a definitive resource for all my sprite sheet animation needs, so I will add use cases (and probably new properties and methods) with time :)
 
+I use my own animation for the examples, it's a simple walking sequence of my avatar. The file that includes all examples is index.html
+
 
 ## Setup
 
@@ -82,10 +84,10 @@ This example starts at mouseover, stops in certain sprite, and animates backward
 ```
 
 ## To do's:
-> - Fix bug that when you mix certain parameters, animation can go crazy
-> - Convert this to a jQuery plugin
-> - Include size from JS, to be CSS free (for the animation, anyways)
-> - Clean the code (sorry, this has been done in a few hours and I didn't test it correctly)
+* Fix bug that when you mix certain parameters, animation can go crazy
+* Convert this to a jQuery plugin
+* Include size from JS, to be CSS free (for the animation, anyways)
+* Clean the code (sorry, this has been done in a few hours and I didn't test it correctly)
 
 
 ## License
