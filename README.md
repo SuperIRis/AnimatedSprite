@@ -12,22 +12,22 @@ Create an animation with a Sprite sheet. You can set parameters to do complex an
 
 ## Parameters of constructor
 
-> - spriteURL: URL of the sprite sheet
-> - div: container of the animation
-> - orientation: the way your sprites are ordered in the sheet, can be "horizontal" or "vertical" (defaults to "vertical").
-> - steps: the number of sprites contained on your spritesheet
-> - settings: an object that contains specific parameters to generate more complex animations:
-    > - loop: the animation must loop? defaults to false
-    > - loopStartStep: does the animation should return to the start for the loop? if not, you may specify the step number in which the animation should begin after loop.
-    > - loopEndStep: does the animation should end to loop? if not, you may specify the step number in which the animation should return to start.
+* spriteURL: URL of the sprite sheet
+* div: container of the animation
+* orientation: the way your sprites are ordered in the sheet, can be "horizontal" or "vertical" (defaults to "vertical").
+* steps: the number of sprites contained on your spritesheet
+* settings: an object that contains specific parameters to generate more complex animations:
+    * loop: the animation must loop? defaults to false
+    * loopStartStep: does the animation should return to the start for the loop? if not, you may specify the step number in which the animation should begin after loop.
+    * loopEndStep: does the animation should end to loop? if not, you may specify the step number in which the animation should return to start.
 
 
 ## Methods
 
-> - start: starts the animation (no params)
-> - stop: stops the animation. It accepts one boolean parameter, that indicates if the animation should reset itself to the beginning after stopping.
-> - hoverIn: can be used to start an animation in mouseover(or another event), accepting a number parameter that indicates where the animation should stop.
-> - hoverOut: can be used to change an animation in mouseout (or another event), accepting two parameters (from and until) that indicate where the hoverOut should start and where it should stop.
+* start: starts the animation (no params)
+* stop: stops the animation. It accepts one boolean parameter, that indicates if the animation should reset itself to the beginning after stopping.
+* hoverIn: can be used to start an animation in mouseover(or another event), accepting a number parameter that indicates where the animation should stop.
+* hoverOut: can be used to change an animation in mouseout (or another event), accepting two parameters (from and until) that indicate where the hoverOut should start and where it should stop.
 
 
 ## Example use cases
