@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/main.css" rel="stylesheet" />
+    </head>
+    <body>
+        <article class="example">
+            <p>This animation starts in sprite 1 but it loops only from sprite 5 to 23. When the animation stops, it goes until the last sprite before reseting itself and stopping.</p>
+            <div class="main-animation" id="main-animation"></div>
+            <button id="loop-btn">Start loop animation</button>
+            <button id="unloop-btn" disabled="disabled">Stop loop animation</button>
+        </article>
+        <article class="example">
+            <p>This animation starts at mouseover and ends at mouseout. If the mouse leaves early, the animation completes anyway.</p>
+            <div class="main-animation" id="main-animation2"></div>
+            <div>Hover me!</div>
+        </article>
+        <article class="example">
+            <p>This animation starts at mouseover, loops, and ends at mouseout. </p>
+            <div class="main-animation" id="main-animation4"></div>
+            <div>Hover me!</div>
+        </article>
+        <article class="example">
+            <p>This animation starts at mouseover, stops in certain sprite, and animates backwards at mouseout. </p>
+            <div class="main-animation" id="main-animation3"></div>
+            <div>Hover me!</div>
+        </article>
+        <script src="js/AnimatedSprite.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
